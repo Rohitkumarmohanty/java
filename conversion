@@ -1,0 +1,16 @@
+import java.util.scanner;
+public class conversion
+{
+  public static void main(string[] args)
+  {
+     scanner sc =new scanner(system.in);
+     system.out.println("enter the minutes");
+     int min=sc.nextint();
+     
+     int yr=min/525600;
+     int day=min/1440;
+     
+     system.out.println(min +"minutes is approximately"+yr+"years and"+day+"days");
+     }
+   }
+   
